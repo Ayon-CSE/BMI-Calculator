@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Calculate your BMI (Body Mass Index) with ease"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Calculator - Know Your Body Mass Index</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <h1 class="title">BMI Calculator</h1>
+        <p class="subtitle">Calculate your Body Mass Index</p>
+
+        <form id="bmiForm" class="form">
+          <div class="form-group">
+            <label for="height" class="label">Height (cm)</label>
+            <input
+              type="number"
+              id="height"
+              class="input"
+              placeholder="Enter height in cm"
+              min="0"
+              step="0.1"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="weight" class="label">Weight (kg)</label>
+            <input
+              type="number"
+              id="weight"
+              class="input"
+              placeholder="Enter weight in kg"
+              min="0"
+              step="0.1"
+              required
+            />
+          </div>
+
+          <button type="submit" class="btn">Calculate BMI</button>
+        </form>
+
+        <div id="results" class="results"></div>
+
+        <div class="weight-guide">
+          <h3 class="guide-title">BMI Categories</h3>
+          <div class="guide-list">
+            <div class="guide-item">
+              <span class="category underweight">Underweight</span>
+              <span class="value">&lt; 18.6</span>
+            </div>
+            <div class="guide-item">
+              <span class="category normal">Normal Weight</span>
+              <span class="value">18.6 - 24.9</span>
+            </div>
+            <div class="guide-item">
+              <span class="category overweight">Overweight</span>
+              <span class="value">&gt; 24.9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -16,6 +16,19 @@ A sleek, responsive, and interactive Body Mass Index (BMI) calculator built with
 
 ---
 
+## 📸 Screenshots
+
+### Dashboard
+![BMI Calculator Dashboard](dashboard.png)
+
+### Results Display
+![BMI Results](results.png)
+
+### BMI Categories Guide
+![BMI Categories](Categories.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology               | Purpose                                                |

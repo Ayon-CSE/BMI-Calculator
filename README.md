@@ -19,12 +19,15 @@ A sleek, responsive, and interactive Body Mass Index (BMI) calculator built with
 ## 📸 Screenshots
 
 ### Dashboard
+
 ![BMI Calculator Dashboard](dashboard.png)
 
 ### Results Display
+
 ![BMI Results](results.png)
 
 ### BMI Categories Guide
+
 ![BMI Categories](Categories.png)
 
 ---
@@ -230,7 +233,7 @@ This project is open source and available under the MIT License.
 **Ayon-CSE**
 
 - GitHub: [@Ayon-CSE](https://github.com/Ayon-CSE)
-- Email: your.email@example.com
+- Email: dasguptaayon55@gmail.com
 
 ---
 
